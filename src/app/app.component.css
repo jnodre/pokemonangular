@@ -1,0 +1,75 @@
+.pokemon-list {
+    padding: 16px;
+}
+
+.pokemon-list > li {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0, .2);
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.pokemon h2 {
+    margin: 7px 0px;
+    font-size: 1.2rem;
+}
+
+
+.photos {
+    height: 120px;
+    border-radius: 3px;
+}
+
+.photos img {
+    width: 50%;
+    height: 100%;
+}
+
+.buttom-list button {
+    width: 100%;
+    margin: 3px 0px;
+    background-color: rgb(77, 136, 224);
+    border-radius: 3px;
+    border: 1px solid transparent;
+    color: white;
+    font-weight: 700;
+    padding: 7px 0px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0, .2);
+}
+
+.type-list {
+    display: flex;
+    margin: 0px 0px;
+    margin-bottom: 5px;
+}
+
+.type-list li {
+    margin-right: 5px;
+    border-radius: 2px;
+    padding: 3px 7px;
+    color: white;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0, .2);
+}
+
+li.grass {
+    background-color: rgb(0, 114, 47);
+}
+
+li.poison {
+    background-color: rgb(114, 0, 99);
+}
+
+li.fire {
+    background-color: rgb(114, 8, 0);
+}
+
+li.water {
+    background-color: rgb(0, 49, 114);
+}
+
+li.bug {
+    background-color: #929c0c;
+}
